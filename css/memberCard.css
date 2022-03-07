@@ -1,0 +1,23 @@
+#MemberCard_component {
+  margin:0 auto;
+  width:400px;
+  height: 500px;
+  background-color: white;
+  border-radius: 10%;
+  box-shadow: 5px 5px 5px 5px gray;
+}
+
+#MemberCard_img1 {
+  display:inline-block;
+  margin-top:60px;
+}
+
+#MemberCard_name, #MemberCard_where{
+  margin-top:40px;
+}
+
+#CTime {
+  margin-top: 50px;
+  font-size: 30px;
+  font-weight: bold;
+}

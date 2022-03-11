@@ -22,7 +22,7 @@ app.get('/', (request, response)=> {
 
 app.get('/login', (request, response) => {
   var _url = request.url;
-  var queryDate = url.parse(_url, true).query;
+  var queryDate =   url.parse(_url, true).query;
 
   db.query(`SELECT * from member`, (error, member) => {
     var i;
